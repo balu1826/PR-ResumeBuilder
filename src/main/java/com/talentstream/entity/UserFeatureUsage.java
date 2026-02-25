@@ -48,7 +48,7 @@ public class UserFeatureUsage {
 	
 	@Column(name="latest_session_date")
 	private String latestSessionDate;
-	 @Column(name = "mobile_mentor__sessions" ,nullable = false,
+	@Column(name = "mobile_mentor__sessions" ,nullable = false,
 		    columnDefinition = "integer default 0")
 private Integer mobileMentorConnects=0 ;
  

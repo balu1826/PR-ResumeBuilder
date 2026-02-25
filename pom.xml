@@ -26,6 +26,18 @@
 			<artifactId>opencsv</artifactId>
 			<version>5.5.2</version>
 		</dependency>
+		 <!-- Dependency for PDF Formatter -->
+		 <dependency>
+        <groupId>commons-fileupload</groupId>
+        <artifactId>commons-fileupload</artifactId>
+        <version>1.4</version>
+  	  </dependency>
+  	  <dependency>
+    <groupId>com.openhtmltopdf</groupId>
+    <artifactId>openhtmltopdf-pdfbox</artifactId>
+    <version>1.0.10</version>
+</dependency>
+ <!-- lookup parent from repository -->
  	<dependency>
         <groupId>commons-fileupload</groupId>
         <artifactId>commons-fileupload</artifactId>
