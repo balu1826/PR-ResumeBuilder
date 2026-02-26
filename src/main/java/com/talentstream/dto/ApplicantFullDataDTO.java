@@ -1,5 +1,7 @@
 package com.talentstream.dto;
 
+import javax.validation.constraints.NotNull;
+
 public class ApplicantFullDataDTO {
 
     private Long applicantId;
@@ -21,6 +23,7 @@ public class ApplicantFullDataDTO {
     private String gradCourse;
     private String gradSpecialization;
     private String gradUniversity;
+    @NotNull(message="Fill all the education details")
     private Integer gradStartYear;
     private Integer gradEndYear;
     private Double gradMarksPercent;
